@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blogList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.blogCard {
+  padding: 16px;
+  border: 1px solid #dedede;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blogTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.blogDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+.blogDate {
+  font-size: 11px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
